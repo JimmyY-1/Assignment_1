@@ -1,0 +1,119 @@
+body {
+    background-color: #0c0c0c !important;
+    color: #A5ACAF !important;
+}
+
+.covercontainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #A5ACAF;
+}
+
+.covercontainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.covercontainer> {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+}
+
+.covercontainer h1 {
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+.covercontainer p {
+    margin-top: 0;
+}
+
+.burrow {
+    width: 100%;
+    height: auto;
+}
+
+.koopic2 {
+    width: 100%;
+    height: 90%;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.chart {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.resized-chart {
+    width: 70% !important;
+    height: auto !important;
+}
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700 !important;
+    font-style: normal;
+    font-size: 90px !important;
+    color: #A71930 !important;
+    z-index: 5;
+}
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600 !important;
+    font-style: normal;
+    font-size: 36px !important;
+}
+
+h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600 !important;
+    font-style: normal;
+    font-size: 32px !important;
+    z-index: 5;
+}
+
+p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 24px !important;
+}
+
+.line {
+    width: 100%;
+    border: 2px solid #A71930 !important;
+    opacity: 1;
+}
+
+.shortmessage {
+    text-align: center;
+}
+
+.shortmessage p {
+    font-size: 20px !important;
+}
