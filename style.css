@@ -44,7 +44,7 @@ body {
     margin-top: 0;
 }
 
-.burrow {
+.koo {
     width: 100%;
     height: auto;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .resized-chart {
-    width: 70% !important;
+    width: 55% !important;
     height: auto !important;
 }
 
@@ -76,7 +76,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 700 !important;
     font-style: normal;
-    font-size: 90px !important;
+    font-size: 50px !important;
     color: #A71930 !important;
     z-index: 5;
 }
@@ -108,12 +108,4 @@ p {
     width: 100%;
     border: 2px solid #A71930 !important;
     opacity: 1;
-}
-
-.shortmessage {
-    text-align: center;
-}
-
-.shortmessage p {
-    font-size: 20px !important;
 }
